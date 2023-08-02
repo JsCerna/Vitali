@@ -1,17 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import "./Project.css"
-import Corporal from "../Img/tratamientocorporal.jpg"
-import Facial from "../Img/tratamientofacial.jpg"
-
+import "./Project.css";
+import Corporal from "../Img/tratamientocorporal.jpg";
+import Facial from "../Img/tratamientofacial.jpg";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          Tratamientos  <strong className="purple">Disponibles </strong>
+          Tratamientos <strong className="purple">Disponibles </strong>
         </h1>
         <p style={{ color: "black" }}>
           Se dividen en tratamientos corporales y tratamientos faciales.
@@ -23,7 +22,7 @@ function Projects() {
               isBlog={false}
               title="Tratamientos Corporales"
               description="La estética corporal abarca una serie de procesos estéticos que buscan mejorar la apariencia física, por medio de tratamientos cosmetológicos, procedimientos manuales y aparatología especializada, sin tener que recurrir al quirófano."
-              ghLink="http://localhost:3000/servicios1"
+              ghLink="/servicios1" // Cambia aquí la URL a "servicios1"
             />
           </Col>
 
@@ -33,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="Tratamientos Faciales"
               description="La estética facial se centra en el rejuvenecimiento, embellecimiento y cuidado de la cara y cuello, corrigiendo aspectos que puedan mejorar la belleza del rostro mediante técnicas no invasivas."
-              ghLink="http://localhost:3000/servicios2"
+              ghLink="/servicios2" // Cambia aquí la URL a "servicios2"
             />
           </Col>
         </Row>
