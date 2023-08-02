@@ -1,0 +1,101 @@
+.about-section {
+  text-align: center;
+  padding: 6rem 0;
+  
+}
+
+.about-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.single-image {
+  width: 100%; /* Establece el ancho al 100% */
+  max-width: 850px !important;/* Establece el ancho máximo deseado para la imagen */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}
+.card-container {
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  max-width: 850px !important;
+  line-height: 1.5 !important;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.card-text {
+  color: white;
+  font-family: sans-serif !important;
+  font-size: 18px;
+  
+}
+
+.person-section {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.person-image-container {
+  display: inline-block;
+}
+
+.person-image {
+  width: 60%; /* Establece el ancho al 40% del contenedor */
+  max-width: 500px; /* Establece el ancho máximo deseado para la imagen */
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+}
+
+.person-subtitle {
+  font-style: italic;
+  margin-top: 10px;
+}
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .about-section {
+    padding: 4rem 1rem;
+  }
+
+  .about-title {
+    font-size: 2rem;
+    margin-top: 25px;
+  }
+
+  .card-container {
+    padding: 8px 16px;
+    max-width: 100%;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+  .person-image {
+    width: 80%; /* Cambia el ancho al 80% en dispositivos móviles */
+    max-width: 300px; /* Cambia el ancho máximo a 250px en dispositivos móviles */
+  }
+  .single-image {
+    max-width: 100%; /* Cambia el ancho máximo a 100% en dispositivos responsivos */
+  }
+}
+
+  

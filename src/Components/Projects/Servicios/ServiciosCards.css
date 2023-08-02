@@ -1,0 +1,50 @@
+.read-more {
+    color: rgb(29, 49, 194);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  pre {
+    white-space: pre-wrap;
+  }
+  .description-text {
+    font-family: "Raleway", serif !important;
+    font-size: 18px;
+  }
+  .btn {
+    margin-right: 10px;
+  }
+.pagination {
+  padding-top: 18px;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.pagination {
+  justify-content: center;
+}
+
+.pagination .page-item .page-link {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(0, 0, 0);
+}
+
+.pagination .page-item.active .page-link {
+  background-color:  rgb(65, 197, 245);
+  color: rgb(0, 0, 0);
+}
+
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
