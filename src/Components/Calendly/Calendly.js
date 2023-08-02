@@ -24,6 +24,7 @@ function CalendlyComponent() {
             width="100%"
             height="800"
             frameborder="0"
+            title="Calendly Widget"
             className="calendly-iframe"
           ></iframe>
         </div>
