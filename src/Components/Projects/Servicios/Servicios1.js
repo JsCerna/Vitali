@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Pagination, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import SCard from "./ServiciosCard";
 import cardData from "./Cardata";
