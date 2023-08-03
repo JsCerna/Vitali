@@ -15,7 +15,7 @@ function Footer() {
           <img src={logoImage} alt="Logo" className="footer-logo" />
         </Col>
         <Col md="4" className="footer-cote">
-          <h3>copywright jsc {year}</h3>
+          <h3>copyright jsc {year}</h3>
         </Col>
         <Col md="4" className="footer-body">
           <h1 className="contacto-text">Contacto</h1>
