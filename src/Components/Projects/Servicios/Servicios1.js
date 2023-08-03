@@ -3,6 +3,7 @@ import { Container, Row, Col, Pagination, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import SCard from "./ServiciosCard";
 import cardData from "./Cardata";
+import PaginationComponent from "../PaginationComponent"; // Importa el componente de paginación
 
 function Servicios1() {
   const navigate = useNavigate();
@@ -46,22 +47,18 @@ function Servicios1() {
         <Button className="btn btn-info" onClick={handleGoBack}>
           Atrás
         </Button>
-        <Pagination>
-          {Array.from({ length: Math.ceil(cardData.length / cardsPerPage) }, (_, index) => (
-            <Pagination.Item
-              key={index}
-              active={index + 1 === currentPage}
-              onClick={() => handlePageChange(index + 1)}
-            >
-              {index + 1}
-            </Pagination.Item>
-          ))}
-        </Pagination>
+        {/* Agrega el componente de paginación y pasa las props necesarias */}
+        <PaginationComponent
+          currentPage={currentPage}
+          totalPages={Math.ceil(cardData.length / cardsPerPage)}
+          onPageChange={handlePageChange}
+        />
       </Container>
     </Container>
   );
 }
 
 export default Servicios1;
+
 
 
